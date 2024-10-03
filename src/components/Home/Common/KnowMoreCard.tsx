@@ -7,10 +7,7 @@ import Link from "next/link";
 import AnimatedText from "@/components/ui/AnimatedText";
 import dynamic from "next/dynamic";
 
-// Dynamically import the LottieAnimation component
-const LottieAnimation = dynamic(() => import("@/components/ui/LottieAnimation"), {
-  ssr: false,
-});
+
 
 
 interface KnowMoreCardProps {
